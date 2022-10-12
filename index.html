@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+    <title>Phishing Web Detector</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/fav.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flex.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <body>
+        <!-- Navigation -->
+        <header id="navigationBar" class="container-fluid-sm flex-direction-auto text-white bg-flat-black">
+            <div id="header-logo" class="header-logo">
+                <a href="index.html" title="Home page"><img src="images/fav.png" height="48"></a>
+            </div>
+            <nav id="navigationList" class="flex-self-center padding-col-md text-center">
+                <ul>
+                    <li class="navbar-ul"><a class="text-simple active" href="index.html" title="Home">TRANG CHỦ</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#newsSection" title="News">TIN MỚI</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#featureSection" title="Feature">TÍNH NĂNG</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#priceSection" title="Price">GIÁ CẢ</a></li>
+                    <li class="navbar-ul"><a class="text-simple text-white" href="#aboutUsSection" title="About">THÔNG TIN</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Main content -->
+        <main>
+            <!-- Header -->
+            <section id="headerSection" class="container-fluid-lg text-center text-white img-cover" style="background-image:url(images/bg.jpg)">
+                <h1 id="headerSection-header" class="margin-bottom"> AN TOÀN THÔNG TIN <br> MỘT TẦM CAO MỚI </h1>
+                <h3 id="headerSection-description" class="width-half align-center-row text-justify-center">
+                    Trang bị cho trình duyệt của bạn một chiếc giáp để chống lại những "kẻ xâm lược thông tin" ngày càng tinh vi.
+                    Phising Web Detector là một chiếc giáp hoàn hảo dành cho bạn, với những tính năng an toàn nhầm ngăn chặn các trang web độc hại, có khả năng đánh cắp dữ liệu nhạy cảm của bạn.
+                    Với sự ứng dụng của AI, hứa hẹn sẽ đem đến hiệu quả vượt trội. Ngày càng hoàn thiện, càng xài càng nghiện. 
+                </h3>
+                <div id="headerSection-body" class="width-half align-center-all flex-direction-auto flex-main-evenly padding-md ">
+                    <a id="button-more" href="#featureSection" class="btn btn-rounded btn-lg bg-transparent bg-transparent-hover  text-white text-simple text-bold">XEM THÊM...</a>
+                    <a id="button-try" href="#newsSection" class="btn btn-rounded btn-lg bg-red hover-light text-white border-red text-simple text-bold">THỬ NGAY!</a>
+                </div>
+            </section>
+
+            <!-- News -->
+            <section id="newsSection" class="container-fluid bg-white text-center text-black">
+                <h1 id="newsSection-header" > <i class="fa fa-download text-green"></i> NHỮNG ƯU ĐIỂM VƯỢT TRỘI </h1>
+                <h3 id="newsSection-description" class="width-half align-center-row text-justify-center">
+                    Phishing Web Detector giúp người dùng cảnh báo, phát hiện những trang Web giả mạo đang cố lấy cắp thông tin của chính họ nhanh nhất thông qua các nguồn dữ liệu có sẵn, từ đó giúp xây dụng các thuật 
+                    toán AI, ứng dụng Machine Learning vào các giải thuật để phát hiện các trang Web giả mạo một cách nhanh chóng. Bên cạnh đó phần mềm này còn hỗ trợ đa nền tàng, giúp những người 
+                    truy cập trên các hệ điều hành khác nhau cũng như các dạng thiết bị khác nhau nhận được thông báo một cách nhanh chóng thông qua trình duyệt của chính họ.
+                </h3>
+                <div id="newsSection-line" class="line line-md line-blue align-center-horizontal"></div>
+
+                <div id="newsSection-body" class="width-half align-center-all flex-direction-auto flex-main-center padding-md ">
+                    <a id="button-google" href="#"><img class="btn-app-store" src="images/google-play-badge.png"></a>
+                    <a id="button-appstore" href="#"><img class="btn-app-store" src="images/App_Store.png"></a>
+                </div>
+            </section>
+
+            <!--Feature-->
+            <section id="featureSection" class="container-fluid padding-row-lg bg-flat-black text-center text-white">
+                <h1 id="featureSection-header" class="header text-center"> <i class="fa fa-heart text-red"></i> TẠI SAO LẠI CHỌN G3 </h1>
+                <h3 id="featureSection-description" class="width-half align-center-row text-justify-center">
+                    Ứng dụng phát hiện trang web giả mạo chỉ với một bước nhấp chuột.
+                </h3>
+                <div id="featureSection-line" class="line line-md line-blue align-center-horizontal"></div>
+
+                <div id="featureSection-body" class="flex-direction-auto-medium flex-main-between container-fluid-sm">
+                    <div id="featureSection-body-image" class="container-fluid-reserve-sm margin-row flex-col-2 align-center img-block">
+                        <img class="width-full" src="images/mockup.png">
+                    </div> 
+                    <div id="featureSection-body-list" class="flex-direction-reserve-auto-medium flex-col-1 text-left">
+                        <div id="item-monitor" class="container-sm">
+                            <h3 id="monitor-title" class="text-bold"><div class="line line-bullet line-blue line-start"></div> <i class="fa fa-line-chart"></i> HOẠT ĐỘNG 24/7 </h3>
+                            <div class="margin-bottom text-justify">
+                                <p id="monitor-description">
+                                    Ứng dụng hoạt động liên tục nên có thể gửi thông báo bất cứ lúc nào.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="item-info" class="container-sm">
+                            <h3 id="info-title" class="text-bold"><div class="line line-bullet line-blue line-start"></div>  <i class="fa fa-thermometer"></i> THÔNG TIN ĐƯỢC LƯU TRỮ </h3>
+                            <div class="margin-bottom text-justify">
+                                <p id="info-description">
+                                    Thông tin về trang web lừa đảo sẽ được lưu lại để cảnh báo trong nhưng lần sau.
+                                </p>
+                            </div>
+                        </div>
+                        <div id="item-cloud" class="container-sm">
+                            <h3 id="cloud-title" class="text-bold"><div class="line line-bullet line-blue line-start"></div>  <i class="fa fa-cloud"></i> TÍCH HỢP VỚI NHIỀU TRÌNH DUYỆT </h3>
+                            <div class="margin-bottom text-justify">
+                                <p id="cloud-description">
+                                    Ứng dụng có thể tích hợp với nhiều trình duyệt khác nhau tùy theo nhu cầu của người sử dụng.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Price -->
+            <section id="priceSection" class="container-fluid text-center">
+                <h1 id="priceSection-header"> <i class="fa fa-usd text-yellow "></i> BẢNG GIÁ </h1>
+                <h2 id="priceSection-description">
+                    Chọn gói dịch vụ phù hợp với bạn
+                </h2>
+                <div id="priceSection-line" class="line line-md line-blue align-center-horizontal"></div>
+
+                <div id="priceSection-body" class="container-fluid-sm flex-main-around flex-direction-auto-medium">
+                    <div class="flex-direction-auto flex-col-1">
+                        <!-- First card -->
+                        <div id="card-free" class="flex-col bg-white flex-col-1 text-center margin-sm shadow-hover border border-light-gray">
+                            <div class="text-white bg-flat-black border-bottom border-light-gray">
+                                <h1 id="free-title">CƠ BẢN</h1>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="free-computer"> <span class="text-bold">1</span> PCs </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="free-account"> <span class="text-bold">1</span> Tài khoản </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="free-info"> <span class="text-bold">Tính năng</span> Cơ bản </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="free-support"> <span class="text-bold">Thời gian làm việc</span> 7 giờ/ngày </h3>
+                            </div>
+                            <div class="container-fluid-sm border-bottom border-light-gray">
+                                <h1 id="free-price">$ 50</span></h1><p>1 tháng</p>
+                            </div>  
+                            <div class="container-sm">
+                                <button id="button-signup-free" class="btn btn-sm btn-rounded bg-flat-black text-white border-flat-black hover-light">
+                                    <h3 class="text-bold"><i class="fa fa-check"></i> Đăng Ký </h3>
+                                </button>
+                            </div>
+                        </div>
+
+                          <!-- Second card -->
+                          <div id="card-basic" class="flex-col bg-white flex-col-1 text-center margin-sm shadow-hover border border-light-gray">
+                            <div class="text-white bg-blue border-bottom border-light-gray">
+                                <h1 id="basic-title">NÂNG CAO</h1>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="basic-computer"> <span class="text-bold">10</span> PCs </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="basic-account"> <span class="text-bold">1</span> Tài khoản </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="basic-info"> <span class="text-bold">Tính năng</span> Cơ bản </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="basic-support"> <span class="text-bold">Thời gian làm việc</span> 12 giờ/ngày </h3>
+                            </div>
+                            <div class="container-fluid-sm border-bottom border-light-gray">
+                                <h1 id="basic-price">$ 100</span></h1><p>1 tháng</p>
+                            </div>  
+                            <div class="container-sm">
+                                <button id="button-signup-basic" class="btn btn-sm btn-rounded bg-blue text-white border-blue hover-light">
+                                    <h3 class="text-bold"><i class="fa fa-check"></i> Đăng ký </h3>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex-direction-auto flex-col-1">
+                        <!-- Third card -->
+                        <div id="card-pro" class="flex-col bg-white flex-col-1 text-center  shadow-hover border border-light-gray">
+                            <div class="text-white bg-red border-bottom border-light-gray">
+                                <h1 id="pro-title">PRO</h1>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="pro-computer"> <span class="text-bold">25</span> PCs </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="pro-account"> <span class="text-bold">5</span> Tài khoản </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="pro-info"> <span class="text-bold">Tính năng</span> Nâng cao </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                    <h3 id="pro-support"> <span class="text-bold">Thời gian làm việc</span> 24 giờ/ngày </h3>
+                            </div>
+                            <div class="container-fluid-sm border-bottom border-light-gray">
+                                <h1 id="pro-price">$ 200</span></h1><p>1 tháng</p>
+                            </div>  
+                            <div class="container-sm">
+                                <button id="button-signup-pro" class="btn btn-sm btn-rounded bg-red text-white border-red hover-light">
+                                    <h3 class="text-bold"><i class="fa fa-check"></i> Đăng ký </h3>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!--Fourth card -->
+                        <div id="card-premium" class="flex-col bg-white flex-col-1 text-center margin-sm shadow-hover border border-light-gray">
+                            <div class="text-white bg-yellow border-bottom border-light-gray">
+                                <h1 id="premium-title">PRO MAX</h1>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="premium-computer"> <span class="text-bold">100</span> PCs </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="premium-account"> <span class="text-bold">10</span> Tài khoản </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="premium-info"> <span class="text-bold">Tính năng</span> Hỗ trợ vô hạn các gói dữ liệu </h3>
+                            </div>
+                            <div class="border-bottom border-light-gray">
+                                <h3 id="premium-support"> <span class="text-bold">Thời gian làm việc</span> 24 giờ/ngày </h3>
+                            </div>
+                            <div class="container-fluid-sm border-bottom border-light-gray">
+                                <h1 id="premium-price">$ 500</span></h1><p>1 tháng</p>
+                            </div>  
+                            <div class="container-sm">
+                                <button id="button-signup-premium" class="btn btn-sm btn-rounded bg-yellow text-white border-yellow hover-light">
+                                    <h3 class="text-bold"><i class="fa fa-check"></i> Đăng ký </h3>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- About -->
+            <section id="aboutUsSection" class="container-fluid bg-white text-center text-black bg-light-gray">
+                <h1 id="aboutUsSection-header"> <i class="fa fa-users text-pink"></i> MEET OUR TEAM </h1>
+                <h3 id="aboutUsSection-description"> Chúng tôi là Nhóm 3 - Big Data club </h3>
+                <div id="aboutUsSection-line" class="line line-md line-blue align-center-horizontal"></div>
+
+                <div id="aboutUsSection-body" class="container-fluid-sm flex-main-around flex-direction-auto-medium">
+                    <div class="flex-direction-auto flex-col-1">
+                        <!-- First card -->
+                        <div id="people-thanh" class="flex-col flex-col-1 text-center margin-sm">
+                            <img id="thanh-avatar" class="container-fluid-sm width-half align-center-row img-rounded" src="images/An.jpg">
+                            <h3 id="thanh-name" class="text-bold">Phạm Đại Hoàng An</h3>
+                            <h3 id="thanh-role" class="margin-none">Leader</span></h3>
+                            <p id="thanh-technology" class="margin-none">SQL & Machine Learning</span></p>
+                        </div>
+
+                        <!-- Second card -->
+                        <div id="people-kha" class="flex-col flex-col-1 text-center margin-sm">
+                            <img id="kha-avatar" class="container-fluid-sm width-half align-center-row img-rounded" src="images/Toai.jpg">
+                            <h3 id="kha-name" class="text-bold">Trần Hoàng Công Toại</h3>
+                            <h3 id="kha-role" class="margin-none">Co - Leader</span></h3>
+                            <p id="kha-technology" class="margin-none">Python & Deep Learning </span></p>
+                        </div>
+                    </div>
+                
+                    <div class="flex-direction-auto flex-col-1">
+                        <!-- Third card -->
+                        <div id="people-nghia" class="flex-col flex-col-1 text-center margin-sm">
+                            <img id="nghia-avatar" class="container-fluid-sm width-half align-center-row img-rounded" src="images/Anh.jpg">
+                            <h3 id="nghia-name" class="text-bold">Nguyễn Trọng Anh</h3>
+                            <h3 id="nghia-role" class="margin-none">Member</span></h3>
+                            <p id="nghia-technology" class="margin-none">Power Bi & Java</span></p>
+                        </div>
+
+                    <!--Fourth card -->
+                        <div id="people-trang" class="flex-col flex-col-1 text-center margin-sm">
+                            <img id="trang-avatar" class="container-fluid-sm width-half align-center-row img-rounded" src="images/son.jpg">
+                            <h3 id="trang-name" class="text-bold">Đổng Hoàng Sơn</h3>
+                            <h3 id="trang-role" class="margin-none">Member</span></h3>
+                            <p id="trang-technology" class="margin-none">Unity & C#</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- Footer -->
+        <footer class="container-fluid-sm bg-flat-black text-white">
+            <div class="container-fluid-reserve flex-direction-auto-medium">
+                <!-- About us -->
+                <section id="aboutSection" class="flex-col-1 margin-md">
+                    <div id="project" class="container-fluid-sm">
+                        <h2 id="project-title" class="margin-none">Về Miner Tracker</h2>
+                        <div id="project-line" class="line line-smd line-blue margin-none"></div>
+                        <div id="project-body">
+                            <p id="project-description" class="text-justify-left">
+                                Ứng dụng chống lừa đảo với giao diện đơn giản, dễ làm quen và đặc biệt vô cùng rẻ. Hãy đến với chúng tôi để đảm bảo thông tin cá nhân của bạn an toàn tuyệt đối 
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div id="legacy" class="container-fluid-sm">
+                        <h2 id="legacy-title" class="margin-none">Thông tin pháp lý & điều khoản</h2>
+                        <div id="legacy-line" class="line line-smd line-blue margin-none text-left"></div>
+                        <div id="legacy-body">
+                            <a id="legacy-detail-notice" class="text-white" href="#" title="Legal Notice"><p>Thông tin pháp lý</p></a>
+                            <a id="legacy-detail-term" class="text-white" href="#" title="Terms & Conditions"><p>Chính sách và điều khoản</p></a>
+                        </div>
+                    </div>  
+                </section>
+
+                <!-- Contact -->
+                <section id="contactSection" class="flex-col-1 container-fluid-sm margin-md">
+                    <h2 id="contactSection-title" class="margin-none">Thông tin liên hệ</h2>
+                    <div id="contactSection-line" class="line line-smd line-blue margin-none"></div>
+                    <div id="contactSection-body">
+                        <h3 id="contact-address"><i class="fa fa-home margin-bottom"></i> <span class="text-bold"> Địa chỉ:</span> Quận Tân Bình, Thành Phố Hồ Chí Minh</h3>
+                        <h3 id="contact-phone"><i class="fa fa-phone margin-bottom"></i> <span class="text-bold"> Điện Thoại:</span> (+84) O934.444.555</h3>
+                        <h3 id="contact-email"><i class="fa fa-envelope"></i> <span class="text-bold"> Email:</span> Group3BDC@minertracker.com</h3>
+                    </div>
+                </section>
+                
+                <!-- Email -->
+                <section id="emailSection" class="flex-col-2 container-fluid-sm margin-md">
+                    <h2 id="emailSection-title" class="margin-none">Gửi thắc mắc đến chúng tôi</h2>
+                    <div id="emailSection-line" class="line line-smd line-blue margin-none"></div>
+                    <p id="emailSection-description">Gửi thông tin của bạn để liên lạc với chúng tôi</p>
+
+                    <div id="emailSection-body">
+                        <input id="email-name" class="input bg-transparent text-white border border-light-gray" type="text" placeholder="Name">
+                        <input id="email-address" class="input bg-transparent text-white border border-light-gray" placeholder="Email">
+                        <input id="email-subject" class="input bg-transparent text-white border border-light-gray" placeholder="Subject">
+                        <input id="email-message" class="input bg-transparent text-white border border-light-gray" placeholder="Message">
+                        <button id="button-email" class="btn btn-sm btn-rounded bg-blue text-white border-blue hover-light margin-col">
+                            <h3 class="text-bold"><i class="fa fa-send"></i> Gửi </h3>
+                        </button>
+                    </div>
+                </section>
+            </div>
+            <p id="copyright-text" class="text-center">Copyright 2018 ArounDev Team. All Rights Reserved</p>
+        </footer>
+            <!-- Scroll to top button -->
+            <div id="scrollButton" class="btn-scroll text-white margin-sm padding-sm">
+                <h1 id="scrollIcon" class="text-scroll"><i class="fa fa-angle-up"></i></h1>
+            </div>
+        <script>
+            //On windows scroll event
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("navigationBar");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                $("#scrollButton").fadeIn();
+                header.classList.add("navbar-sticky");
+                } else {
+                $("#scrollButton").fadeOut();
+                header.classList.remove("navbar-sticky");
+                }
+            }
+            
+            //To top scrolling
+            $("#scrollButton").on('click', function(event) {
+                $('html, body').animate({ scrollTop: $("#headerSection").offset().top}, 800);
+            });
+        </script>
+    </body>
+</html>
